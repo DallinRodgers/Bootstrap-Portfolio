@@ -24,6 +24,9 @@ h1 {
 }
 .btn-success {
   background: #4aaaa5 !important;
+  border: none;
+  /* border-color: #4aaaa5 !important; */
+  outline: none;
 }
 .btn-success:hover {
   background: #3d9b96 !important;
@@ -44,7 +47,7 @@ h1 {
 .portfolio-item {
   flex-basis: 45%;
   position: relative;
-  min-width: 200px;
+  min-width: 300px;
   min-height: 200px;
   margin: 10px;
 }
