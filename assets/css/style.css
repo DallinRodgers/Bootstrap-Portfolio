@@ -10,9 +10,11 @@ main {
   background: url(../img/criss-cross.png);
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   min-height: calc(100% - 141px);
+  color: #777777;
 }
 h1 {
   font-family: "Georgia", Times, Times New Roman, serif;
+  color: #4aaaa5;
   width: 100%;
 }
 .content {
@@ -31,4 +33,49 @@ h1 {
 }
 .nav-item {
   font-size: 20px;
+}
+.border-bottom {
+  border-bottom: 5px solid #cccccc !important;
+}
+.border-top {
+  border-top: 5px solid #4aaaa5 !important;
+}
+
+.portfolio-item {
+  flex-basis: 45%;
+  position: relative;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 10px;
+}
+.portfolio-item span {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background: #4aaaa5;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.portfolio-1 {
+  background: url(../img/portfolio-1.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio-2 {
+  background: url(../img/portfolio-2.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio-3 {
+  background: url(../img/portfolio-3.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio-4 {
+  background: url(../img/portfolio-4.jpg) center no-repeat;
+  background-size: cover;
+}
+.portfolio-5 {
+  background: url(../img/portfolio-5.jpg) center no-repeat;
+  background-size: cover;
 }

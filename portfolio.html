@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -19,11 +19,13 @@
 
     <title>My Portfolio</title>
   </head>
-  <body>
-    <header class="border-bottom border-dark">
+  <body class="d-flex flex-column h-100">
+    <header class="border-bottom">
       <nav class="navbar navbar-expand-lg navbar-light p-0 container">
-        <span class="navbar-brand text-white bg-success py-3 px-4" href="#"
-          >Dallin Rodgers</span
+        <a
+          href="index.html"
+          class="navbar-brand text-white btn-success py-3 px-4 m-0"
+          >Dallin Rodgers</a
         >
         <button
           class="navbar-toggler"
@@ -38,7 +40,9 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto d-flex align-items-center">
+          <ul
+            class="navbar-nav ml-auto d-flex align-items-center flex-row justify-content-around"
+          >
             <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
             </li>
@@ -54,31 +58,57 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="flex-shrink-0">
       <section>
-        <div>
-          <h1>Portfolio</h1>
-          <div>
-            <div>
-              <span>Hangman</span>
+        <div class="container content mb-4">
+          <h1 class="mx-2 border-bottom border-dark">Portfolio</h1>
+          <div class="row">
+            <div class="col-md-1 p-0 m-0"></div>
+            <div
+              class="col-md-4 portfolio-item portfolio-1 d-flex justify-content-center p-0 m-2"
+            >
+              <span class="center">Hangman</span>
             </div>
-            <div>
-              <span>RPG Game</span>
+            <div class="col-md-1 p-0 m-0"></div>
+            <div class="col-md-1 p-0 m-0"></div>
+            <div
+              class="col-md-4 portfolio-item portfolio-2 d-flex justify-content-center p-0 m-2"
+            >
+              <span class="center">RPG Game</span>
             </div>
-            <div>
-              <span>Trivia Game</span>
+            <div class="col-md-1 p-0 m-0"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-1 p-0 m-0"></div>
+            <div
+              class="col-md-4 portfolio-item portfolio-3 d-flex justify-content-center p-0 m-2"
+            >
+              <span class="center">Trivia Game</span>
             </div>
-            <div>
-              <span>Rutgers Info widget</span>
+            <div class="col-md-1 p-0 m-0"></div>
+            <div class="col-md-1 p-0 m-0"></div>
+            <div
+              class="col-md-4 portfolio-item portfolio-4 d-flex justify-content-center p-0 m-2"
+            >
+              <span class="center">Rutgers Info widget</span>
             </div>
-            <div>
-              <span>Rock Paper Scissors</span>
+            <div class="col-md-1 p-0 m-0"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-1 p-0 m-0"></div>
+            <div
+              class="col-md-4 portfolio-item portfolio-5 d-flex justify-content-center p-0 m-2"
+            >
+              <span class="center">Rock Paper Scissors</span>
             </div>
+            <div class="col-md-1 p-0 m-0"></div>
           </div>
         </div>
       </section>
     </main>
-    <footer>
+    <footer
+      class="footer mt-auto py-3 text-center bg-dark text-light border-top"
+    >
       <span>Copyright &copy;</span>
     </footer>
 
