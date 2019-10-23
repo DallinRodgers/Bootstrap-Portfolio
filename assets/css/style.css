@@ -1,0 +1,16 @@
+header {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+main {
+  background: url(../img/criss-cross.png);
+  height: calc(100% - 141px);
+}
+.bg-success {
+  background: #4aaaa5 !important;
+}
+.navbar-brand {
+  font-size: 35px;
+}
+.nav-item {
+  font-size: 20px;
+}
