@@ -20,8 +20,11 @@ h1 {
   margin-top: 20px;
   padding: 20px;
 }
-.bg-success {
+.btn-success {
   background: #4aaaa5 !important;
+}
+.btn-success:hover {
+  background: #3d9b96 !important;
 }
 .navbar-brand {
   font-size: 35px;
